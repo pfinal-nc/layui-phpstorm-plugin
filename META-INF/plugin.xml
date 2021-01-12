@@ -1,0 +1,45 @@
+<idea-plugin>
+    <id>cn.pfinal.club.pflayui.plugin</id><!--插件id，不能和其他插件项目重复，推荐com.xxx.xxx的格式 -->
+    <name>LayUI</name><!--插件名称 -->
+    <version>1.0</version><!--插件版本号 -->
+    <vendor email="lampxiezi@163.com" url="http://friday-go.cc">PFinal</vendor>
+    <description><![CDATA[
+        <h1>LayUI</h1>
+        <br/>
+        <p><b>A Layui framework completion using plug-ins</b></p>
+        <br/>
+        <p><b>Plug-in for Layui front-end framework for easy development</b></p>
+        ]]>
+  </description>
+    <!--插件版本变更日志，支持HTML标签 -->
+    <change-notes><![CDATA[
+        <h2>Layui live templates / snippets</h2>
+        <br>
+        <p><a href="https://www.layui.com/doc/">LayUI 官方文档</a></p>
+        <br>
+        <p>Follow me on Github: <a href="https://github.com/Neroxiezi"><b>@PFinal南丞</b></a></p>
+        <ul>
+            <li>v1.0 init</li>
+        </ul>
+        ]]>
+  </change-notes>
+
+    <!-- 对IntelliJ IDEA软件支持本插件版本号 -->
+    <idea-version since-build="145"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <defaultLiveTemplates file="/liveTemplates/Layui.xml"/>
+        <!--<defaultLiveTemplatesProvider implementation="pfinal.layui.plugin.layui.LayuiTemplatesProvider" />-->
+    </extensions>
+    <!--具体的插件动作，后面会介绍 -->
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

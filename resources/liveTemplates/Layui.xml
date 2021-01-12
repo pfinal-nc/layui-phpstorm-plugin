@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Layui">
+    <template name="lay-cdn:js"
+              value="&lt;!-- Latest compiled and minified JS --&gt;&#10;&lt;script src=&quot;https://www.layuicdn.com/layui-v2.5.6/layui.js&quot;&gt;&lt;/script&gt;$END$"
+              description="Layui JavaScript CDN" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-cdn:css"
+              value="&lt;!-- Latest compiled and minified CSS --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.layuicdn.com/layui-v2.5.6/css/layui.css&quot;&gt;$END$"
+              description="Layui  CSS CDN" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-cdn"
+              value="&lt;!-- Latest compiled and minified CSS &amp; JS --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;https://www.layuicdn.com/layui-v2.5.6/css/layui.css&quot;&gt;&#10;&lt;script src=&quot;https://www.layuicdn.com/layui-v2.5.6/layui.js&quot;&gt;&lt;/script&gt;$END$"
+              description="Layui CSS &amp; JS CDN" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-con"
+              value="&lt;div class=&quot;layui-container&quot;&gt;&lt;/div&gt;$END$"
+              description="Layui container" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-con:row"
+              value="&lt;div class=&quot;layui-container&quot;&gt; &lt;div class=&quot;layui-row&quot;&gt; &lt;/div&gt; &lt;/div&gt;$END$"
+              description="Layui container row" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-bg:red"
+              value=" layui-bg-red $END$"
+              description="Layui color" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-bg:orange"
+              value=" layui-bg-orange $END$"
+              description="Layui color" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-bg:green"
+              value=" layui-bg-green $END$"
+              description="Layui color" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-bg:cyan"
+              value=" layui-bg-cyan $END$"
+              description="Layui color" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-bg:black"
+              value=" layui-bg-black $END$"
+              description="Layui color" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-nav:base"
+              value="&lt;ul class=&quot;layui-nav&quot; lay-filter=&quot;&quot;&gt;&#10;&#9; &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;$var1&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li class=&quot;layui-nav-item layui-this&quot;&gt;&lt;a href=&quot;&quot;&gt;$var1&lt;/a&gt;&lt;/li&gt;&#10;&lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;$var2&lt;/a&gt;&lt;/li&gt;&#10;&lt;li class=&quot;layui-nav-item&quot;&gt;&#10;&lt;a href=&quot;javascript:;&quot;&gt;$var3&lt;/a&gt;&#10;&lt;dl class=&quot;layui-nav-child&quot;&gt; &lt;!-- 二级菜单 --&gt;&#10;&lt;dd&gt;&lt;a href=&quot;&quot;&gt;$var4&lt;/a&gt;&lt;/dd&gt;&#10;&lt;dd&gt;&lt;a href=&quot;&quot;&gt;$var4&lt;/a&gt;&lt;/dd&gt;&#10;&lt;dd&gt;&lt;a href=&quot;&quot;&gt;$var4&lt;/a&gt;&lt;/dd&gt;&#10;&lt;script&gt;//注意：导航 依赖 element 模块，否则无法进行功能性操作&#10;&#9;layui.use(&#x27;element&#x27;, function(){&#10;&#9;var element = layui.element;&#10;&#9;});&lt;/script&gt;$END$"
+              description="Navbar (Links)" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="产品" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="大数据" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="解决方案" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="移动模块" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+</templateSet>
