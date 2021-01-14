@@ -254,4 +254,366 @@
             <option name="OTHER" value="true"/>
         </context>
     </template>
+    <template name="lay-btn"
+              value="&lt;button type=&quot;layui-btn&quot;&gt;$var1$&lt;button&gt;$END$" description="lay 按钮"
+              toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:primary"
+              value="&lt;button type=&quot;layui-btn layui-btn-primary&quot;&gt;$var1$&lt;button&gt;$END$"
+              description="lay 原始按钮" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:normal"
+              value="&lt;button type=&quot;layui-btn layui-btn-normal&quot;&gt;$var1$&lt;button&gt;$END$"
+              description="lay 百搭按钮" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;百搭&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:warm"
+              value="&lt;button type=&quot;layui-btn layui-btn-warm&quot;&gt;$var1$&lt;button&gt;$END$"
+              description="lay 暖色按钮" toReformat="false"
+              toShortenFQNames="true">
+        <variable name="var1" expression="&quot;暖色&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:danger"
+              value="&lt;button type=&quot;layui-btn layui-btn-danger&quot;&gt;$var1$&lt;button&gt;$END$"
+              description="lay 警告按钮" toReformat="false"
+              toShortenFQNames="true">
+        <variable name="var1" expression="&quot;警告&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:disabled"
+              value="&lt;button type=&quot;layui-btn layui-btn-disabled&quot;&gt;$var1$&lt;button&gt;$END$"
+              description="lay 禁用按钮" toReformat="false"
+              toShortenFQNames="true">
+        <variable name="var1" expression="&quot;禁用&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:icon"
+              value="&lt;button type=&quot;layui-btn&quot;&gt;&lt;i class=&quot;layui-icon&quot;&gt;&#xe608;&lt;i&gt; $var1$&lt;button&gt;$END$"
+              description="lay 图标按钮" toReformat="false"
+              toShortenFQNames="true">
+        <variable name="var1" expression="&quot;添加&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:group"
+              value="&lt;div class=&quot;layui-btn-group&quot;&gt;&#10;&#9; &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var1$&lt;button&gt;&#10;&#9; &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var2$&lt;button&gt;&#10;&#9; &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var3$&lt;button&gt;&#10;&lt;div&gt;$END$"
+              description="lay 图标按钮" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;添加&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;编辑&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;删除&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:group"
+              value="&lt;div class=&quot;layui-btn-group&quot;&gt;&#10;&#9; &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var1$&lt;button&gt;&#10;&#9; &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var2$&lt;button&gt;&#10;&#9; &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var3$&lt;button&gt;&#10;&lt;div&gt;$END$"
+              description="lay 按钮组" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;添加&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;编辑&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;删除&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-form"
+              value="&lt;form class=&quot;layui-form&quot; action=&quot; &quot;&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item&quot;&gt;&#10;&#9;
+        &lt;label class=&quot;layui-form-label&quot;&gt;输入框&lt;/label&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-block&quot;&gt;&#10;&#9;
+            &lt;input type=&quot;text&quot; name=&quot;title&quot; required  lay-verify=&quot;required&quot; placeholder=&quot;请输入标题&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;&#10;&#9;
+        &lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item&quot;&gt;&#10;&#9;
+        &lt;label class=&quot;layui-form-label&quot;&gt;密码框&lt;/label&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-inline&quot;&gt;&#10;&#9;
+            &lt;input type=&quot;password&quot; name=&quot;password&quot; required lay-verify=&quot;required&quot; placeholder=&quot;请输入密码&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;&#10;&#9;
+        &lt;/div&gt;&#10;&#9;
+        &lt;div class=&quot;layui-form-mid layui-word-aux&quot;&gt;辅助文字&lt;/div&gt;&#10;&#9;
+    &lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item&quot;&gt;&#10;&#9;
+        &lt;label class=&quot;layui-form-label&quot;&gt;选择框&lt;/label&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-block&quot;&gt;&#10;&#9;
+            &lt;select name=&quot;city&quot; lay-verify=&quot;required&quot;&gt;&#10;&#9;
+                &lt;option value=&quot; &quot;>&lt;/option&gt;&#10;&#9;
+                &lt;option value=&quot; &quot;>北京&lt;/option&gt;&#10;&#9;
+                &lt;option value=&quot; &quot;>上海&lt;/option&gt;&#10;&#9;
+                &lt;option value=&quot; &quot;>广州&lt;/option&gt;&#10;&#9;
+                &lt;option value=&quot; &quot;>深圳&lt;/option&gt;&#10;&#9;
+                &lt;option value=&quot; &quot;>杭州&lt;/option&gt;&#10;&#9;
+            &lt;/select&gt;&#10;&#9;
+        &lt;/div&gt;&#10;&#9;
+    &lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item&quot;&gt;&#10;&#9;
+        &lt;label class=&quot;layui-form-label&quot;>复选框&lt;/label&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-block&quot;&gt;&#10;&#9;
+            &lt;input type=&quot;checkbox&quot; name=&quot;like[write]&quot; title=&quot;写作&quot;&gt;&#10;&#9;
+            &lt;input type=&quot;checkbox&quot; name=&quot;like[read]&quot; title=&quot;阅读&quot; checked&gt;&#10;&#9;
+            &lt;input type=&quot;checkbox&quot; name=&quot;like[dai]&quot; title=&quot;发呆&quot;&gt;&#10;&#9;
+        &lt;/div&gt;&#10;&#9;
+    &lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item&quot;&gt;&#10;&#9;
+        &lt;label class=&quot;layui-form-label&quot;&gt;开关&lt;/label&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-block&quot;&gt;&#10;&#9;
+            &lt;input type=&quot;checkbox&quot; name=&quot;switch&quot; lay-skin=&quot;switch&quot;&gt;&#10;&#9;
+        &lt;/div&gt;&#10;&#9;
+    &lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item&quot;&gt;&#10;&#9;
+        &lt;label class=&quot;layui-form-label&quot;&gt;单选框&lt;/label&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-block&quot;&gt;&#10;&#9;
+            &lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;男&quot; title=&quot;男&quot;&gt;&#10;&#9;
+            &lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;女&quot; title=&quot;女&quot; checked&gt;&#10;&#9;
+        &lt;/div&gt;&#10;&#9;
+    &lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item layui-form-text&quot;&gt;&#10;&#9;
+        &lt;label class=&quot;layui-form-label&quot;&gt;文本域&lt;/label&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-block&quot;&gt;&#10;&#9;
+            &lt;textarea name=&quot;desc&quot; placeholder=&quot;请输入内容&quot; class=&quot;layui-textarea&quot;> &lt;/textarea&gt;&#10;&#9;
+        &lt;/div&gt;&#10;&#9;
+    &lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-form-item&quot;&gt;&#10;&#9;
+        &lt;div class=&quot;layui-input-block&quot;&gt;&#10;&#9;
+            &lt;button class=&quot;layui-btn&quot; lay-submit lay-filter=&quot;formDemo&quot;>立即提交&lt;/button&gt;&#10;&#9;
+            &lt;button type=&quot;reset&quot; class=&quot;layui-btn layui-btn-primary&quot;>重置&lt;/button&gt;&#10;&#9;
+        &lt;/div&gt;&#10;&#9;
+    &lt;/div&gt;&#10;&#9;
+&lt;/form&gt;&#10;&#9;
+&lt;script&gt;&#10;&#9;
+    layui.use(&#x27;form&#x27;, function(){&#10;&#9;
+    var form = layui.form;&#10;&#9; //监听提交 &#10;&#9;
+    form.on(&#x27;submit(formDemo)&#x27;, function(data){&#10;&#9;
+        layer.msg(JSON.stringify(data.field));&#10;&#9;
+            return false;&#10;&#9;
+        });&#10;&#9;
+    });&#10;&#9;
+&lt;/script&gt;&#10;&#9; $END$"
+              description="lay 表单" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-tab"
+              value="&lt;div class=&quot;layui-tab&quot;&gt;&#10;&#9;
+  &lt;ul class=&quot;layui-tab-title&quot;&gt;&#10;&#9;
+    &lt;li class=&quot;layui-this&quot;&gt;网站设置&lt;/li&gt;&#10;&#9;
+    &lt;li&gt;用户管理&lt;/li&gt;&#10;&#9;
+    &lt;li&gt;权限分配&lt;/li&gt;&#10;&#9;
+    &lt;li&gt;商品管理&lt;/li&gt;&#10;&#9;
+    &lt;li&gt;订单管理&lt;/li&gt;&#10;&#9;
+  &lt;/ul&gt;&#10;&#9;
+  &lt;div class=&quot;layui-tab-content&quot;&gt;&#10;&#9;
+    &lt;div class=&quot;layui-tab-item layui-show&quot;&gt;内容1&lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-tab-item&quot;&gt;内容2&lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-tab-item&quot;&gt;内容3&lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-tab-item&quot;&gt;内容4&lt;/div&gt;&#10;&#9;
+    &lt;div class=&quot;layui-tab-item&quot;&gt;内容5&lt;/div&gt;&#10;&#9;
+  &lt;/div&gt;&#10;&#9;
+&lt;/div&gt;&#10;&#9;
+&lt;script&gt;&#10;&#9;
+//注意：选项卡 依赖 element 模块，否则无法进行功能性操作&#10;&#9;
+layui.use(&#x27;element&#x27;, function(){&#10;&#9;
+  var element = layui.element;&#10;&#9;
+&#10;&#9;
+  //…&#10;&#9;
+});&#10;&#9;
+&lt;/script&gt;$END$"
+              description="lay 选项卡" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
 </templateSet>
