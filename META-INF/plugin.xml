@@ -1,28 +1,73 @@
 <idea-plugin>
     <id>cn.pfinal.club.pflayui.plugin</id><!--插件id，不能和其他插件项目重复，推荐com.xxx.xxx的格式 -->
     <name>LayUI</name><!--插件名称 -->
-    <version>1.0.4</version><!--插件版本号 -->
+    <version>1.0.5</version><!--插件版本号 -->
     <vendor email="lampxiezi@163.com" url="http://friday-go.cc">PFinal南丞</vendor>
     <description><![CDATA[
         <h1>LayUI</h1>
         <br/>
         <p><b>A Layui framework completion using plug-ins</b></p>
         <br/>
-        <p>The plug-in uses the Layui front-end framework to develop the page automatically completes the commonly used module code in the framework, and develops faster and more efficiently</p>
+        <p>The plug-in uses the Layui front-end framework to develop the page automatically completes the commonly used
+            module code in the framework, and develops faster and more efficiently</p>
         <br/>
         <p><b>Plug-in for Layui front-end framework for easy development</b></p>
         <br>
         <p><a href="https://www.layui.com/doc/">LayUI 官方文档</a></p>
         <br>
         <p>Follow me on Github: <a href="https://github.com/Neroxiezi"><b>@PFinal南丞</b></a></p>
-        <img src="https://github.com/Neroxiezi/layui-phpstorm-plugin/blob/main/help.gif" alt="">
+        <img src="https://nero_xeizi.gitee.io/pic/help.gif" alt="">
         ]]>
   </description>
     <!--插件版本变更日志，支持HTML标签 -->
     <change-notes><![CDATA[
         <h2>Layui live templates / snippets</h2>
         <ul>
-            <li>v1.0 init</li>
+            <li>V - 1.0.6 init</li>
+            <li>
+                <ul>
+                    <li>- 增加 lay-date  js操作</li>
+                    <li>- 增加 lay-layer js补全</li>
+                </ul>
+            </li>
+            <li>V - 1.0.5 init</li>
+            <li>
+                <ul>
+                    <li>- 增加 基本lay-date</li>
+                    <li>- 增加 基本lay-layer</li>
+                </ul>
+            </li>
+            <li>V - 1.0.4 init</li>
+            <li>
+                <ul>
+                    <li>- 增加 lay-btn</li>
+                    <li>- 增加 lay-btn</li>
+                </ul>
+            </li>
+            <li>V - 1.0.3 init</li>
+            <li>
+                <ul>
+                    <li>- 增加 lay-nav</li>
+                    <li>- 增加 lay-tab</li>
+                </ul>
+            </li>
+            <li>V - 1.0.2 init</li>
+            <li>
+                <ul>
+                    <li>- 修改 README.md</li>
+                    <li>- 更新 插件 图标</li>
+                </ul>
+            </li>
+            <li>V - 1.0.1 init</li>
+            <li>
+                <ul>
+                    <li>- lay-cdn  增加 layui cdn</li>
+                    <li>- lay-con  增加容器 </li>
+                    <li>- lay-row   </li>
+                    <li>- lay-card 卡片面板   </li>
+                    <li>- lay-collapse 折叠面板   </li>
+                </ul>
+            </li>
         </ul>
         ]]>
   </change-notes>

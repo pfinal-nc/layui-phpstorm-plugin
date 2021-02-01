@@ -1293,36 +1293,6 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-layer:base"
-              value="&lt;script&gt;&#10;&#9;
-layer.msg(&#x27;hello&#x27;);&#10;
-layui.use(&#x27;layer&#x27;, function(){&#10;&#9;
-  var layer = layui.layer;&#10;
-
-  layer.msg(&#x27;hello&#x27;);&#10;
-});&#10;&#9;
-&lt;/script&gt;&#10;&#9;$END$"
-              description="lay 弹框" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
     <template name="lay-date"
               value="&lt;div class=&quot;layui-inline&quot;&gt; &lt;!-- 注意：这一层元素并不是必须的 --&gt;&#10;
   &lt;input type=&quot;text&quot; class=&quot;layui-input&quot; id=&quot;test1&quot;&gt;&#10;&#9;
@@ -1356,6 +1326,258 @@ layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;
             <option name="PHP" value="true"/>
             <option name="HAML" value="false"/>
             <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-date:y"
+              value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;        //执行一个laydate实例&#10;&#9;    laydate.render({&#10;&#9;      elem: &#x27;#test1&#x27; //指定元素&#10;&#9;    ,type: &#x27;year&#x27;&#10;&#9;    });&#10;&#9;  });$END$"
+              description="laydate 年选择器" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-date:ym"
+              value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;    laydate.render({ &#10;&#9;        elem: &#x27;#test&#x27;&#10;&#9;        ,type: &#x27;month&#x27;&#10;&#9;    });&#10;&#9;});$END$"
+              description="laydate 年月选择器" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-date:time"
+              value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;    laydate.render({ &#10;&#9;        elem: &#x27;#test&#x27;&#10;&#9;        ,type: &#x27;time&#x27;&#10;&#9;    });&#10;&#9;});$END$"
+              description="laydate 时间选择器" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-date:time"
+              value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;    laydate.render({ &#10;&#9;        elem: &#x27;#test&#x27;&#10;&#9;        ,type: &#x27;datetime&#x27;&#10;&#9;    });&#10;&#9;});$END$"
+              description="laydate 日期时间选择器" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:base"
+              value="&lt;script&gt;&#10;&#9;
+layer.msg(&#x27;hello&#x27;);&#10;
+layui.use(&#x27;layer&#x27;, function(){&#10;&#9;
+  var layer = layui.layer;&#10;
+
+  layer.msg(&#x27;hello&#x27;);&#10;
+});&#10;&#9;
+&lt;/script&gt;&#10;&#9;$END$"
+              description="lay 弹框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="false"/>
+            <option name="XML" value="false"/>
+            <option name="JSP" value="false"/>
+            <option name="CSS_PROPERTY_VALUE" value="false"/>
+            <option name="CSS_DECLARATION_BLOCK" value="false"/>
+            <option name="CSS_RULESET_LIST" value="false"/>
+            <option name="CSS" value="false"/>
+            <option name="JAVA_SCRIPT" value="false"/>
+            <option name="TypeScript" value="false"/>
+            <option name="SQL" value="false"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
+            <option name="CoffeeScript" value="false"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="false"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:base"
+              value="&lt;script&gt;&#10;&#9;
+layer.msg(&#x27;hello&#x27;);&#10;
+layui.use(&#x27;layer&#x27;, function(){&#10;&#9;
+  var layer = layui.layer;&#10;
+
+  layer.msg(&#x27;hello&#x27;);&#10;
+});&#10;&#9;
+&lt;/script&gt;&#10;&#9;$END$"
+              description="lay 弹框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="PHP" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:base"
+              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9;  &#10;&#9;  layer.msg(&#x27;hello&#x27;,{&#x27;icon&#x27;:1});&#10;&#9;});$END$"
+              description="layer 图标弹框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="PHP" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:confirm"
+              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9; layer.confirm(&#x27;纳尼？&#x27;, {&#10;&#9; btn: [&#x27;按钮一&#x27;, &#x27;按钮二&#x27;, &#x27;按钮三&#x27;] //可以无限个按钮 &#10;&#9;    ,btn3: function(index, layero){&#10;&#9;   //按钮【按钮三】的回调&#10;&#9;    }&#10;&#9;},&#10;&#9; function(index, layero){    //按钮【按钮一】的回调&#10;&#9;    },&#10;&#9; function(index){   //按钮【按钮二】的回调&#10;&#9;    })&#10;&#9;});$END$"
+              description="layer 确认框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="PHP" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:confirm"
+              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9; layer.confirm(&#x27;纳尼？&#x27;, {&#10;&#9; btn: [&#x27;按钮一&#x27;, &#x27;按钮二&#x27;, &#x27;按钮三&#x27;] //可以无限个按钮 &#10;&#9;    ,btn3: function(index, layero){&#10;&#9;   //按钮【按钮三】的回调&#10;&#9;    }&#10;&#9;},&#10;&#9; function(index, layero){    //按钮【按钮一】的回调&#10;&#9;    },&#10;&#9; function(index){   //按钮【按钮二】的回调&#10;&#9;    })&#10;&#9;});$END$"
+              description="layer 确认弹框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="PHP" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:prompt"
+              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9;  layer.prompt(function(val, index){&#10;&#9;      layer.msg(&#x27;得到了&#x27;+val);&#10;&#9;      layer.close(index);&#10;&#9;   })&#10;&#9;});$END$"
+              description="layer 输入弹框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="PHP" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:load"
+              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9; layer.load(1);&#10;&#9;});$END$"
+              description="layer 加载框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="PHP" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:tab"
+              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9;    layer.tab({&#10;&#9;          area: [&#x27;600px&#x27;, &#x27;300px&#x27;],&#10;&#9;         tab: [{&#10;&#9;                    title: &#x27;TAB1&#x27;, &#10;&#9;                    content: &#x27;内容1&#x27;&#10;&#9;        }, {&#10;&#9;        title: &#x27;TAB2&#x27;, &#10;&#9;       content: &#x27;内容2&#x27;&#10;&#9;    }, {&#10;&#9;        title: &#x27;TAB3&#x27;, &#10;&#9;        content: &#x27;内容3&#x27;&#10;&#9;    }]&#10;&#9;  });   &#10;&#9;});$END$"
+              description="layer tab弹框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer:tips"
+              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9;   layer.tips(&#x27;Hi，我是tips&#x27;, &#x27;吸附元素选择器，如#id&#x27;); &#10;&#9; });$END$"
+              description="layer tips" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer-params:scrollbar"
+              value="scrollbar: false,$END$"
+              description="layer 屏蔽层参数" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer-params:scrollbar"
+              value="scrollbar: false,$END$"
+              description="layer 屏蔽层参数" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer-params:area"
+              value="area:[&#x27;500px&#x27;, &#x27;300px&#x27;],$END$"
+              description="layer 大小" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="lay-layer-params:offset"
+              value="offset: &#x27;auto&#x27;, // auto 自动 l,r,lt,rt,t, $END$"
+              description="layer 大小" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="lay-data-table"
+              value="layui.use(&#x27;table&#x27;, function(){&#10;&#9;            var table = layui.table;&#10;&#9;            //第一个实例&#10;&#9;            table.render({&#10;&#9;              elem: &#x27;#demo&#x27;&#10;&#9;              ,height: 312&#10;&#9;              ,url: &#x27;/demo/table/user/&#x27; //数据接口&#10;&#9;              ,page: true //开启分页&#10;&#9;              ,cols: [[ //表头&#10;&#9;                {field: &#x27;id&#x27;, title: &#x27;ID&#x27;, width:80, sort: true, fixed: &#x27;left&#x27;}&#10;&#9;                ,{field: &#x27;username&#x27;, title: &#x27;用户名&#x27;, width:80}&#10;&#9;                ,{field: &#x27;sex&#x27;, title: &#x27;性别&#x27;, width:80, sort: true}&#10;&#9;                ,{field: &#x27;city&#x27;, title: &#x27;城市&#x27;, width:80} &#10;&#9;                ,{field: &#x27;sign&#x27;, title: &#x27;签名&#x27;, width: 177}&#10;&#9;                ,{field: &#x27;experience&#x27;, title: &#x27;积分&#x27;, width: 80, sort: true}&#10;&#9;                ,{field: &#x27;score&#x27;, title: &#x27;评分&#x27;, width: 80, sort: true}&#10;&#9;                ,{field: &#x27;classify&#x27;, title: &#x27;职业&#x27;, width: 80}&#10;&#9;                ,{field: &#x27;wealth&#x27;, title: &#x27;财富&#x27;, width: 135, sort: true}&#10;&#9;              ]]&#10;&#9;            });&#10;&#9;          });$END$"
+              description="layui js 渲染table" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
         </context>
     </template>
 </templateSet>
