@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>cn.pfinal.club.pflayui.plugin</id><!--插件id，不能和其他插件项目重复，推荐com.xxx.xxx的格式 -->
     <name>LayUI</name><!--插件名称 -->
-    <version>1.0.5</version><!--插件版本号 -->
+    <version>1.0.6</version><!--插件版本号 -->
     <vendor email="lampxiezi@163.com" url="http://friday-go.cc">PFinal南丞</vendor>
     <description><![CDATA[
         <h1>LayUI</h1>
