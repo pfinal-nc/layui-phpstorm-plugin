@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/layui-phpstorm-plugin.iml" filepath="$PROJECT_DIR$/.idea/layui-phpstorm-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Layui.iml" filepath="$PROJECT_DIR$/Layui.iml" />
     </modules>
   </component>
 </project>
