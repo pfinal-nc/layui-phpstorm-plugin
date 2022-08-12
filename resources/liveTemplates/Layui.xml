@@ -1,256 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Layui">
-    <template name="lay-cdn:js"
-              value="&lt;!-- Latest compiled and minified JS --&gt;&#10;&lt;script src=&quot;https://www.layuicdn.com/layui-v2.5.6/layui.js&quot;&gt;&lt;/script&gt;$END$"
-              description="Layui JavaScript CDN" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-cdn:css"
-              value="&lt;!-- Latest compiled and minified CSS --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.layuicdn.com/layui-v2.5.6/css/layui.css&quot;&gt;$END$"
-              description="Layui  CSS CDN" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-cdn"
+    <template name="lay-cdn:2.5"
               value="&lt;!-- Latest compiled and minified CSS &amp; JS --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;https://www.layuicdn.com/layui-v2.5.6/css/layui.css&quot;&gt;&#10;&lt;script src=&quot;https://www.layuicdn.com/layui-v2.5.6/layui.js&quot;&gt;&lt;/script&gt;$END$"
-              description="Layui CSS &amp; JS CDN" toReformat="false" toShortenFQNames="true">
+              description="Layui 2.5 CSS &amp; JS CDN" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-cdn:2.7"
+              value="&lt;!-- 引入 layui.css --&gt;&#10;&lt;link href=&quot;//unpkg.com/layui@2.7.6/dist/css/layui.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&lt;!-- 引入 layui.js --&gt;&#10;&lt;script src=&quot;//unpkg.com/layui@2.7.6/dist/layui.js&quot;&gt;&lt;/script&gt;&#10;$END$"
+              description="Layui 2.7 CSS &amp; JS CDN" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-con"
               value="&lt;div class=&quot;layui-container&quot;&gt;&lt;/div&gt;$END$"
-              description="Layui container" toReformat="false" toShortenFQNames="true">
+              description="Layui 容器" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-con:row"
               value="&lt;div class=&quot;layui-container&quot;&gt; &lt;div class=&quot;layui-row&quot;&gt; &lt;/div&gt; &lt;/div&gt;$END$"
-              description="Layui container row" toReformat="false" toShortenFQNames="true">
+              description="Layui 栅格容器" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-bg:red"
-              value=" layui-bg-red $END$"
-              description="Layui color" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-bg:orange"
               value=" layui-bg-orange $END$"
-              description="Layui color" toReformat="false" toShortenFQNames="true">
+              description="Layui Class 背景颜色-橙色" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-bg:green"
-              value=" layui-bg-green $END$"
-              description="Layui color" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-bg:cyan"
               value=" layui-bg-cyan $END$"
-              description="Layui color" toReformat="false" toShortenFQNames="true">
+              description="Layui Class 背景颜色-藏青" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-bg:black"
               value=" layui-bg-black $END$"
-              description="Layui color" toReformat="false" toShortenFQNames="true">
+              description="Layui Class 背景颜色-黑" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-nav:base"
               value="&lt;ul class=&quot;layui-nav&quot; lay-filter=&quot;&quot;&gt;&#10;&#9; &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;$var1$ &lt;/a&gt;&lt;/li&gt;&#10;&#9; &lt;li class=&quot;layui-nav-item layui-this&quot;&gt;&lt;a href=&quot;&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;&#9; &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;&#9; &lt;li class=&quot;layui-nav-item&quot;&gt;&#10;&#9;&#9; &lt;a href=&quot;javascript:;&quot;&gt;$var1$&lt;/a&gt;&#10;&#9;&#9; &lt;dl class=&quot;layui-nav-child&quot;&gt; &lt;!-- 二级菜单 --&gt;&#10;&#9;&#9;&#9; &lt;dd&gt;&lt;a href=&quot;&quot;&gt;$var1$&lt;/a&gt;&lt;/dd&gt;&#10;&#9;&#9;&#9; &lt;dd&gt;&lt;a href=&quot;&quot;&gt;$var1$&lt;/a&gt;&lt;/dd&gt;&#10;&#9;&#9;&#9; &lt;dd&gt;&lt;a href=&quot;&quot;&gt;$var1$&lt;/a&gt;&lt;/dd&gt;&#10;&#9;&#9; &lt;/dl&gt;&#10;&#9; &lt;/li&gt;&#10;&#9; &lt;/ul&gt;&#10;&#9; &lt;script&gt;&#10;&#9; //注意：导航 依赖 element 模块，否则无法进行功能性操作&#10;&#9; layui.use(&#x27;element&#x27;, function(){&#10;&#9; var element = layui.element;&#10;&#9; });&lt;/script&gt;$END$"
-              description="Navbar (Links)" toReformat="false" toShortenFQNames="true">
+              description="LayUI 基础导航" toReformat="false" toShortenFQNames="true">
         <variable name="var1" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -277,25 +205,25 @@
         var element = layui.element;&#10;
     });&#10;
 &lt;/script&gt;$END$"
-              description="Navbar (Links)" toReformat="false" toShortenFQNames="true">
+              description="Layui 图标导航" toReformat="false" toShortenFQNames="true">
         <variable name="var1" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -320,111 +248,25 @@
         var element = layui.element;&#10;
     });&#10;
 &lt;/script&gt;$END$"
-              description="Navbar (Links)" toReformat="false" toShortenFQNames="true">
+              description="Layui 背景导航" toReformat="false" toShortenFQNames="true">
         <variable name="var1" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-nav:bg-green"
-              value="&lt;ul class=&quot;layui-nav layui-bg-green&quot;&gt;&#10;
-    &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;墨绿导航&lt;/a&gt;&lt;/li&gt;&#10;
-    &lt;li class=&quot;layui-nav-item layui-this&quot;&gt;&lt;a href=&quot;&quot;&gt;产品&lt;/a&gt;&lt;/li&gt;&#10;
-    &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;大数据&lt;/a&gt;&lt;/li&gt;&#10;
-    &lt;li class=&quot;layui-nav-item&quot;&gt;&#10;
-        &lt;a href=&quot;javascript:;&quot;&gt;解决方案&lt;/a&gt;&#10;
-            &lt;dl class=&quot;layui-nav-child&quot;&gt;&#10;
-            &lt;dd&gt;&lt;a href=&quot;&quot;&gt;移动模块&lt;/a&gt;&lt;/dd&gt;&#10;
-            &lt;dd&gt;&lt;a href=&quot;&quot;&gt;后台模版&lt;/a&gt;&lt;/dd&gt;&#10;
-            &lt;dd&gt;&lt;a href=&quot;&quot;&gt;电商平台&lt;/a&gt;&lt;/dd&gt;&#10;
-        &lt;/dl&gt;&#10;
-    &lt;/li&gt;&#10;
-    &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;社区&lt;/a&gt;&lt;/li&gt;&#10;
-&lt;/ul&gt;&#10;&lt;script&gt;&#10;&#9;
-    //注意：导航 依赖 element 模块，否则无法进行功能性操作
-    &#10;
-    layui.use(&#x27;element&#x27;, function () {&#10;&#9;
-        var element = layui.element;&#10;
-    });&#10;
-&lt;/script&gt;$END$"
-              description="Navbar (Links)" toReformat="false" toShortenFQNames="true">
-        <variable name="var1" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-nav:bg-blue"
-              value="&lt;ul class=&quot;layui-nav layui-bg-blue&quot;&gt;&#10;
-  &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;艳蓝导航&lt;/a&gt;&lt;/li&gt;&#10;
-  &lt;li class=&quot;layui-nav-item layui-this&quot;&gt;&lt;a href=&quot;&quot;&gt;产品&lt;/a&gt;&lt;/li&gt;&#10;
-  &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;大数据&lt;/a&gt;&lt;/li&gt;&#10;
-  &lt;li class=&quot;layui-nav-item&quot;&gt;&#10;
-    &lt;a href=&quot;javascript:;&quot;&gt;解决方案&lt;/a&gt;&#10;
-    &lt;dl class=&quot;layui-nav-child&quot;&gt;&#10;
-      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;移动模块&lt;/a&gt;&lt;/dd&gt;&#10;
-      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;后台模版&lt;/a&gt;&lt;/dd&gt;&#10;
-      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;电商平台&lt;/a&gt;&lt;/dd&gt;&#10;
-    &lt;/dl&gt;&#10;
-  &lt;/li&gt;&#10;
-  &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;社区&lt;/a&gt;&lt;/li&gt;&#10;
-&lt;/ul&gt;&#10;&lt;script&gt;&#10;&#9;
-    //注意：导航 依赖 element 模块，否则无法进行功能性操作
-    &#10;
-    layui.use(&#x27;element&#x27;, function () {&#10;&#9;
-        var element = layui.element;&#10;
-    });&#10;
-&lt;/script&gt;$END$"
-              description="Navbar (Links)" toReformat="false" toShortenFQNames="true">
-        <variable name="var1" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -440,248 +282,334 @@
         var element = layui.element;&#10;
     });&#10;
 &lt;/script&gt;$END$"
-              description="面包屑导航" toReformat="false" toShortenFQNames="true">
+              description="Layui 面包屑导航" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-nav:tree"
+              value="&lt;ul class=&quot;layui-nav layui-nav-tree layui-inline&quot; lay-filter=&quot;demo&quot; style=&quot;margin-right: 10px;&quot;&gt;&#10;
+  &lt;li class=&quot;layui-nav-item layui-nav-itemed&quot;&gt;&#10;
+    &lt;a href=&quot;javascript:;&quot;&gt;默认展开&lt;/a&gt;&#10;
+    &lt;dl class=&quot;layui-nav-child&quot;&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;javascript:;&quot;&gt;选项一&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;javascript:;&quot;&gt;选项二&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;javascript:;&quot;&gt;选项三&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;跳转项&lt;/a&gt;&lt;/dd&gt;&#10;
+    &lt;/dl&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-nav-item&quot;&gt;&#10;
+    &lt;a href=&quot;javascript:;&quot;&gt;解决方案&lt;/a&gt;&#10;
+    &lt;dl class=&quot;layui-nav-child&quot;&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;移动模块&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;后台模版&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;电商平台&lt;/a&gt;&lt;/dd&gt;&#10;
+    &lt;/dl&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;云市场&lt;/a&gt;&lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;社区&lt;/a&gt;&lt;/li&gt;&#10;
+&lt;/ul&gt;&#10;
+&lt;ul class=&quot;layui-nav layui-nav-tree layui-bg-cyan layui-inline&quot; lay-filter=&quot;demo&quot;&gt;&#10;
+  &lt;li class=&quot;layui-nav-item layui-nav-itemed&quot;&gt;&#10;
+    &lt;a href=&quot;javascript:;&quot;&gt;默认展开&lt;/a&gt;&#10;
+    &lt;dl class=&quot;layui-nav-child&quot;&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;javascript:;&quot;&gt;选项一&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;javascript:;&quot;&gt;选项二&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;javascript:;&quot;&gt;选项三&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;跳转项&lt;/a&gt;&lt;/dd&gt;&#10;
+    &lt;/dl&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-nav-item&quot;&gt;&#10;
+    &lt;a href=&quot;javascript:;&quot;&gt;解决方案&lt;/a&gt;&#10;
+    &lt;dl class=&quot;layui-nav-child&quot;&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;移动模块&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;后台模版&lt;/a&gt;&lt;/dd&gt;&#10;
+      &lt;dd&gt;&lt;a href=&quot;&quot;&gt;电商平台&lt;/a&gt;&lt;/dd&gt;&#10;
+    &lt;/dl&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;云市场&lt;/a&gt;&lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-nav-item&quot;&gt;&lt;a href=&quot;&quot;&gt;社区&lt;/a&gt;&lt;/li&gt;&#10;
+&lt;/ul&gt;&#10;$END$"
+              description="Layui 垂直导航" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-btn"
-              value="&lt;button class=&quot;layui-btn&quot;&gt;$var1$&lt;button&gt;$END$" description="lay 按钮"
+              value="&lt;button class=&quot;layui-btn&quot;&gt;$var1$&lt;/button&gt;$END$"
+              description="Layui 按钮"
               toReformat="false" toShortenFQNames="true">
         <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-btn:primary"
-              value="&lt;button class=&quot;layui-btn layui-btn-primary&quot;&gt;$var1$&lt;button&gt;$END$"
-              description="lay 原始按钮" toReformat="false" toShortenFQNames="true">
+              value="&lt;button class=&quot;layui-btn layui-btn-primary&quot;&gt;$var1$&lt;/button&gt;$END$"
+              description="Layui 原始按钮" toReformat="false" toShortenFQNames="true">
         <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-btn:normal"
-              value="&lt;button class=&quot;layui-btn layui-btn-normal&quot;&gt;$var1$&lt;button&gt;$END$"
-              description="lay 百搭按钮" toReformat="false" toShortenFQNames="true">
+              value="&lt;button class=&quot;layui-btn layui-btn-normal&quot;&gt;$var1$&lt;/button&gt;$END$"
+              description="Layui 百搭按钮" toReformat="false" toShortenFQNames="true">
         <variable name="var1" expression="&quot;百搭&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-btn:warm"
-              value="&lt;button class=&quot;layui-btn layui-btn-warm&quot;&gt;$var1$&lt;button&gt;$END$"
-              description="lay 暖色按钮" toReformat="false"
+              value="&lt;button class=&quot;layui-btn layui-btn-warm&quot;&gt;$var1$&lt;/button&gt;$END$"
+              description="Layui 暖色按钮" toReformat="false"
               toShortenFQNames="true">
         <variable name="var1" expression="&quot;暖色&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-btn:danger"
-              value="&lt;button class=&quot;layui-btn layui-btn-danger&quot;&gt;$var1$&lt;button&gt;$END$"
-              description="lay 警告按钮" toReformat="false"
+              value="&lt;button class=&quot;layui-btn layui-btn-danger&quot;&gt;$var1$&lt;/button&gt;$END$"
+              description="Layui 警告按钮" toReformat="false"
               toShortenFQNames="true">
         <variable name="var1" expression="&quot;警告&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-btn:disabled"
-              value="&lt;button class=&quot;layui-btn layui-btn-disabled&quot;&gt;$var1$&lt;button&gt;$END$"
-              description="lay 禁用按钮" toReformat="false"
+              value="&lt;button class=&quot;layui-btn layui-btn-disabled&quot;&gt;$var1$&lt;/button&gt;$END$"
+              description="Layui 禁用按钮" toReformat="false"
               toShortenFQNames="true">
         <variable name="var1" expression="&quot;禁用&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-btn:icon"
-              value="&lt;button class=&quot;layui-btn&quot;&gt;&lt;i class=&quot;layui-icon&quot;&gt;&#xe608;&lt;i&gt; $var1$&lt;button&gt;$END$"
-              description="lay 图标按钮" toReformat="false"
+              value="&lt;button class=&quot;layui-btn&quot;&gt;&lt;i class=&quot;layui-icon&quot;&gt;&#xe608;&lt;/i&gt; $var1$&lt;/button&gt;$END$"
+              description="Layui 图标按钮" toReformat="false"
               toShortenFQNames="true">
         <variable name="var1" expression="&quot;添加&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-btn:group"
-              value="&lt;div class=&quot;layui-btn-group&quot;&gt;&#10;&#9; &lt;button class=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var1$&lt;button&gt;&#10;&#9; &lt;button class=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var2$&lt;button&gt;&#10;&#9; &lt;button class=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var3$&lt;button&gt;&#10;&lt;div&gt;$END$"
-              description="lay 图标按钮" toReformat="false" toShortenFQNames="true">
-        <variable name="var1" expression="&quot;添加&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;编辑&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;删除&quot;" defaultValue="" alwaysStopAt="true"/>
+    <template name="lay-btn:xs"
+              value="&lt;button type=&quot;button&quot; class=&quot;layui-btn layui-btn-xs&quot;&gt;迷你按钮&lt;/button&gt;$END$"
+              description="Layui 迷你按钮" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-btn:group"
-              value="&lt;div class=&quot;layui-btn-group&quot;&gt;&#10;&#9; &lt;button class=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var1$&lt;button&gt;&#10;&#9; &lt;button class=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var2$&lt;button&gt;&#10;&#9; &lt;button class=&quot;button&quot; class=&quot;layui-btn&quot;&gt;$var3$&lt;button&gt;&#10;&lt;div&gt;$END$"
-              description="lay 按钮组" toReformat="false" toShortenFQNames="true">
-        <variable name="var1" expression="&quot;添加&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;编辑&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;删除&quot;" defaultValue="" alwaysStopAt="true"/>
+    <template name="lay-btn:radius"
+              value="&lt;button type=&quot;button&quot; class=&quot;layui-btn layui-btn-radius&quot;&gt;圆角按钮&lt;/button&gt;$END$"
+              description="Layui 圆角按钮" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-btn:con"
+              value="&lt;div class=&quot;layui-btn-container&quot;&gt;&#10;
+  &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;按钮一&lt;/button&gt;&#10;
+  &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;按钮二&lt;/button&gt;&#10;
+  &lt;button type=&quot;button&quot; class=&quot;layui-btn&quot;&gt;按钮三&lt;/button&gt;&#10;
+&lt;/div&gt;$END$"
+              description="Layui 按钮容器" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -756,24 +684,83 @@
         });&#10;&#9;
     });&#10;&#9;
 &lt;/script&gt;&#10;&#9; $END$"
-              description="lay 表单" toReformat="false" toShortenFQNames="true">
+              description="Layui 表单全部" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-form:input"
+              value="&lt;div class=&quot;layui-form-item&quot;&gt;&#10;
+    &lt;label class=&quot;layui-form-label&quot;&gt;单行输入框&lt;/label&gt;&#10;
+    &lt;div class=&quot;layui-input-block&quot;&gt;&#10;
+      &lt;input type=&quot;text&quot; name=&quot;title&quot; lay-verify=&quot;title&quot; autocomplete=&quot;off&quot; placeholder=&quot;请输入标题&quot; class=&quot;layui-input&quot;&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/div&gt;$END$"
+              description="Layui Form 输入框" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-form:yzm"
+              value="&lt;div class=&quot;layui-form-item&quot;&gt;&#10;
+    &lt;label class=&quot;layui-form-label&quot;&gt;验证码&lt;/label&gt;&#10;
+    &lt;div class=&quot;layui-input-inline&quot;&gt;&#10;
+      &lt;input type=&quot;text&quot; name=&quot;vercode&quot; lay-verify=&quot;required&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;&#10;
+    &lt;/div&gt;&#10;
+    &lt;div class=&quot;layui-form-mid&quot; style=&quot;padding: 0!important;&quot;&gt;&#10;
+      &lt;button type=&quot;button&quot; class=&quot;layui-btn layui-btn-primary&quot; lay-on=&quot;get-vercode&quot;&gt;获取验证码&lt;/button&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/div&gt;$END$"
+              description="Layui Form 验证码" toShortenFQNames="true" toReformat="false">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -802,24 +789,24 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
   //…&#10;&#9;
 });&#10;&#9;
 &lt;/script&gt;$END$"
-              description="lay 选项卡" toReformat="false" toShortenFQNames="true">
+              description="Layui 选项卡" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -841,24 +828,24 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
   //…&#10;&#9;
 });&#10;&#9;
 &lt;/script&gt;$END$"
-              description="lay 简洁风格选项卡" toReformat="false" toShortenFQNames="true">
+              description="Layui 简洁风格选项卡" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -888,24 +875,24 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
   //…&#10;&#9;
 });&#10;&#9;
 &lt;/script&gt;$END$"
-              description="lay 卡片风格选项卡" toReformat="false" toShortenFQNames="true">
+              description="Layui 卡片风格选项卡" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -970,24 +957,24 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
 &#10;
 });&#10;
 &lt;/script&gt;$END$"
-              description="lay 带有删除的选项卡" toReformat="false" toShortenFQNames="true">
+              description="Layui 带有删除的选项卡" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -999,24 +986,24 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
     从而映衬出边框投影&#10;&#9;
   &lt;/div&gt;&#10;&#9;
 &lt;/div&gt;&#10;&#9; $END$"
-              description="lay 面板" toReformat="false" toShortenFQNames="true">
+              description="Layui 面板" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -1043,218 +1030,830 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
   //…&#10;&#9;
 });&#10;&#9;
 &lt;/script&gt;$END$"
-              description="lay 折叠面板" toReformat="false" toShortenFQNames="true">
+              description="Layui 折叠面板" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-table"
-              value="&lt;table class=&quot;layui - table&quot;&gt;&#10;
-          &lt;colgroup&gt;&#10;&#9;
-            &lt;col width=&quot;150&quot;&gt;&#10;&#9;
-            &lt;col width=&quot;200&quot;&gt;&#10;&#9;
-            &lt;col&gt;&#10;&#9;
-          &lt;/colgroup&gt;&#10;
-          &lt;thead&gt;&#10;&#9;
-            &lt;tr&gt;&#10;&#9;
-              &lt;th&gt;昵称&lt;/th&gt;&#10;&#9;
-              &lt;th&gt;加入时间&lt;/th&gt;&#10;&#9;
-              &lt;th&gt;签名&lt;/th&gt;&#10;&#9;
-            &lt;/tr&gt;&#10;&#9;
-          &lt;/thead&gt;&#10;&#9;
-          &lt;tbody&gt;&#10;&#9;
-            &lt;tr&gt;&#10;&#9;
-              &lt;td&gt;贤心&lt;/td&gt;&#10;&#9;
-              &lt;td&gt;2016-11-29&lt;/td&gt;&#10;&#9;
-              &lt;td&gt;人生就像是一场修行&lt;/td&gt;&#10;&#9;
-            &lt;/tr&gt;&#10;&#9;
-            &lt;tr&gt;&#10;&#9;
-              &lt;td&gt;许闲心&lt;/td&gt;&#10;&#9;
-              &lt;td&gt;2016-11-28&lt;/td&gt;&#10;&#9;
-              &lt;td&gt;于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…&lt;/td&gt;&#10;&#9;
-            &lt;/tr&gt;&#10;&#9;
-          &lt;/tbody&gt;&#10;
-        &lt;/table&gt;&#10;&#9;$END$"
-              description="lay 表格" toReformat="false" toShortenFQNames="true">
+    <template name="lay-card:collapse-all"
+              value="&lt;div class=&quot;layui-collapse&quot; lay-accordion=&quot;&quot;&gt;&#10;
+  &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+    &lt;h2 class=&quot;layui-colla-title&quot;&gt;文学家&lt;/h2&gt;&#10;
+    &lt;div class=&quot;layui-colla-content layui-show&quot;&gt;&#10;
+      &lt;div class=&quot;layui-collapse&quot; lay-accordion=&quot;&quot;&gt;&#10;
+        &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+          &lt;h2 class=&quot;layui-colla-title&quot;&gt;唐代&lt;/h2&gt;&#10;
+          &lt;div class=&quot;layui-colla-content layui-show&quot;&gt;&#10;
+            &lt;div class=&quot;layui-collapse&quot; lay-accordion=&quot;&quot;&gt;&#10;
+              &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+                &lt;h2 class=&quot;layui-colla-title&quot;&gt;杜甫&lt;/h2&gt;&#10;
+                &lt;div class=&quot;layui-colla-content layui-show&quot;&gt;&#10;
+                  一代诗圣&#10;
+                &lt;/div&gt;&#10;
+              &lt;/div&gt;&#10;
+              &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+                &lt;h2 class=&quot;layui-colla-title&quot;&gt;李白&lt;/h2&gt;&#10;
+                &lt;div class=&quot;layui-colla-content&quot;&gt;&#10;
+                  &lt;p&gt;一代诗仙&lt;/p&gt;&#10;
+                &lt;/div&gt;&#10;
+              &lt;/div&gt;&#10;
+              &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+                &lt;h2 class=&quot;layui-colla-title&quot;&gt;王勃&lt;/h2&gt;&#10;
+                &lt;div class=&quot;layui-colla-content&quot;&gt;&#10;
+                  &lt;p&gt;千古绝唱《滕王阁序》&lt;/p&gt;&#10;
+                &lt;/div&gt;&#10;
+              &lt;/div&gt;&#10;
+            &lt;/div&gt;&#10;
+          &lt;/div&gt;&#10;
+        &lt;/div&gt;&#10;
+        &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+          &lt;h2 class=&quot;layui-colla-title&quot;&gt;宋代&lt;/h2&gt;&#10;
+          &lt;div class=&quot;layui-colla-content&quot;&gt;&#10;
+            &lt;p&gt;一个属于文人的时代&lt;/p&gt;&#10;
+          &lt;/div&gt;&#10;
+        &lt;/div&gt;&#10;
+        &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+          &lt;h2 class=&quot;layui-colla-title&quot;&gt;现代&lt;/h2&gt;&#10;
+          &lt;div class=&quot;layui-colla-content&quot;&gt;&#10;
+            &lt;p&gt;文学大师纷纷登场&lt;/p&gt;&#10;
+          &lt;/div&gt;&#10;
+        &lt;/div&gt;&#10;
+        &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+          &lt;h2 class=&quot;layui-colla-title&quot;&gt;当代&lt;/h2&gt;&#10;
+          &lt;div class=&quot;layui-colla-content&quot;&gt;&#10;
+            &lt;p&gt;文人、作家&lt;/p&gt;&#10;
+          &lt;/div&gt;&#10;
+        &lt;/div&gt;&#10;
+      &lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/div&gt;&#10;
+  &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+    &lt;h2 class=&quot;layui-colla-title&quot;&gt;科学家&lt;/h2&gt;&#10;
+    &lt;div class=&quot;layui-colla-content&quot;&gt;&#10;
+      &lt;p&gt;伟大的科学家&lt;/p&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/div&gt;&#10;
+  &lt;div class=&quot;layui-colla-item&quot;&gt;&#10;
+    &lt;h2 class=&quot;layui-colla-title&quot;&gt;艺术家&lt;/h2&gt;&#10;
+    &lt;div class=&quot;layui-colla-content&quot;&gt;&#10;
+      &lt;p&gt;浑身散发着艺术细胞&lt;/p&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/div&gt;&#10;
+&lt;/div&gt;$END$"
+              description="Layui 折叠嵌套面板" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-table:line"
-              value="&lt;table class=&quot;layui-table&quot; lay-skin=&quot;line&quot;&gt;&#10;&#9;
-  行边框表格（内部结构参见右侧目录“常规用法”）&#10;&#9;
-&lt;/table&gt;&#10;&#9;$END$"
-              description="lay  行边框表格" toReformat="false" toShortenFQNames="true">
+    <template name="lay-progress:default"
+              value="&lt;div class=&quot;layui-progress&quot;&gt;&#10;
+  &lt;div class=&quot;layui-progress-bar&quot; lay-percent=&quot;40%&quot;&gt;&lt;/div&gt;&#10;
+&lt;/div&gt;&#10;$END$"
+              description="Layui 默认进度条" toShortenFQNames="true" toReformat="false">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-table:row"
-              value="&lt;table class=&quot;layui-table&quot; lay-skin=&quot;row&quot;&gt;&#10;&#9;
-  列边框表格（内部结构参见右侧目录“常规用法”）&#10;&#9;
-&lt;/table&gt;&#10;&#9;$END$"
-              description="lay  列边框表格" toReformat="false" toShortenFQNames="true">
+    <template name="lay-progress:show"
+              value="&lt;div class=&quot;layui-progress&quot; lay-showpercent=&quot;true&quot;&gt;&#10;
+  &lt;div class=&quot;layui-progress-bar&quot; lay-percent=&quot;40%&quot;&gt;&lt;/div&gt;&#10;
+&lt;/div&gt;&#10;$END$"
+              description="Layui 进度条-显示文本" toShortenFQNames="true" toReformat="false">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-table:row"
-              value="&lt;table class=&quot;layui-table&quot; lay-even lay-skin=&quot;nob&quot;&gt;&#10;&#9;
-  无边框表格（内部结构参见右侧目录“常规用法”）&#10;&#9;
-&lt;/table&gt;&#10;&#9;$END$"
-              description="lay  无边框表格" toReformat="false" toShortenFQNames="true">
+    <template name="lay-timeline:default"
+              value="&lt;ul class=&quot;layui-timeline&quot;&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;h3 class=&quot;layui-timeline-title&quot;&gt;8月18日&lt;/h3&gt;&#10;
+      &lt;p&gt;&#10;
+        layui 2.0 的一切准备工作似乎都已到位。发布之弦，一触即发。&#10;
+        &lt;br&gt;不枉近百个日日夜夜与之为伴。因小而大，因弱而强。&#10;
+        &lt;br&gt;无论它能走多远，抑或如何支撑？至少我曾倾注全心，无怨无悔 &lt;i class=&quot;layui-icon&quot;&gt;&lt;/i&gt;&#10;
+      &lt;/p&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;h3 class=&quot;layui-timeline-title&quot;&gt;8月16日&lt;/h3&gt;&#10;
+      &lt;p&gt;杜甫的思想核心是儒家的仁政思想，他有&lt;em&gt;“致君尧舜上，再使风俗淳”&lt;/em&gt;的宏伟抱负。个人最爱的名篇有：&lt;/p&gt;&#10;
+      &lt;ul&gt;&#10;
+        &lt;li&gt;《登高》&lt;/li&gt;&#10;
+        &lt;li&gt;《茅屋为秋风所破歌》&lt;/li&gt;&#10;
+      &lt;/ul&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;h3 class=&quot;layui-timeline-title&quot;&gt;8月15日&lt;/h3&gt;&#10;
+      &lt;p&gt;&#10;
+        中国人民抗日战争胜利日&#10;
+        &lt;br&gt;铭记、感恩&#10;
+        &lt;br&gt;所有为中华民族浴血奋战的英雄将士&#10;
+        &lt;br&gt;永垂不朽&#10;
+      &lt;/p&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;div class=&quot;layui-timeline-title&quot;&gt;过去&lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+&lt;/ul&gt;$END$"
+              description="Layui 时间线默认" toShortenFQNames="true" toReformat="false">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
-    <template name="lay-table:sm"
-              value="&lt;table class=&quot;layui-table&quot; lay-size=&quot;sm&quot;&gt;&#10;&#9;
-  小尺寸表格（内部结构参见右侧目录“常规用法”）&#10;&#9;
-&lt;/table&gt;&#10;&#9;$END$"
-              description="lay 小尺寸表格" toReformat="false" toShortenFQNames="true">
+    <template name="lay-timeline:small"
+              value="&lt;ul class=&quot;layui-timeline&quot;&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;div class=&quot;layui-timeline-title&quot;&gt;2018年，layui 5.0 发布。并发展成为中国最受欢迎的前端UI框架（期望）&lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;div class=&quot;layui-timeline-title&quot;&gt;2017年，layui 里程碑版本 2.0 发布&lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;div class=&quot;layui-timeline-title&quot;&gt;2016年，layui 首个版本发布&lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;div class=&quot;layui-timeline-title&quot;&gt;2015年，layui 孵化&lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+  &lt;li class=&quot;layui-timeline-item&quot;&gt;&#10;
+    &lt;i class=&quot;layui-icon layui-anim layui-anim-rotate layui-anim-loop layui-timeline-axis&quot;&gt;&lt;/i&gt;&#10;
+    &lt;div class=&quot;layui-timeline-content layui-text&quot;&gt;&#10;
+      &lt;div class=&quot;layui-timeline-title&quot;&gt;更久前，轮子时代。维护几个独立组件：layer等&lt;/div&gt;&#10;
+    &lt;/div&gt;&#10;
+  &lt;/li&gt;&#10;
+&lt;/ul&gt;$END$"
+              description="Layui 时间线简约" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-table:default"
+              value="&lt;table class=&quot;layui-table&quot;&gt;&#10;
+    &lt;colgroup&gt;&#10;
+        &lt;col width=&quot;150&quot;&gt;&#10;
+        &lt;col width=&quot;200&quot;&gt;&#10;
+        &lt;col&gt;&#10;
+    &lt;/colgroup&gt;&#10;
+    &lt;thead&gt;&#10;
+    &lt;tr&gt;&#10;
+        &lt;th&gt;昵称&lt;/th&gt;&#10;
+        &lt;th&gt;加入时间&lt;/th&gt;&#10;
+        &lt;th&gt;签名&lt;/th&gt;&#10;
+    &lt;/tr&gt;&#10;
+    &lt;/thead&gt;&#10;
+    &lt;tbody&gt;&#10;
+    &lt;tr&gt;&#10;
+        &lt;td&gt;贤心&lt;/td&gt;&#10;
+        &lt;td&gt;2016-11-29&lt;/td&gt;&#10;
+        &lt;td&gt;人生就像是一场修行&lt;/td&gt;&#10;
+    &lt;/tr&gt;&#10;
+    &lt;tr&gt;&#10;
+        &lt;td&gt;许闲心&lt;/td&gt;&#10;
+        &lt;td&gt;2016-11-28&lt;/td&gt;&#10;
+        &lt;td&gt;于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…&lt;/td&gt;&#10;
+    &lt;/tr&gt;&#10;
+    &lt;/tbody&gt;&#10;
+&lt;/table&gt;$END$"
+              description="Layui 静态表格" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-table:all"
+              value="&lt;table class=&quot;layui-hide&quot; id=&quot;test&quot; lay-filter=&quot;test&quot;&gt;&lt;/table&gt;&#10;
+&lt;script type=&quot;text/html&quot; id=&quot;toolbarDemo&quot;&gt;&#10;
+  &lt;div class=&quot;layui-btn-container&quot;&gt;&#10;
+    &lt;button class=&quot;layui-btn layui-btn-sm&quot; lay-event=&quot;getCheckData&quot;&gt;获取选中行数据&lt;/button&gt;&#10;
+    &lt;button class=&quot;layui-btn layui-btn-sm&quot; lay-event=&quot;getData&quot;&gt;获取当前页数据&lt;/button&gt;&#10;
+    &lt;button class=&quot;layui-btn layui-btn-sm&quot; lay-event=&quot;isAll&quot;&gt;是否全选&lt;/button&gt;&#10;
+    &lt;button class=&quot;layui-btn layui-btn-sm layui-bg-blue&quot; id=&quot;reloadTest&quot;&gt;&#10;
+      重载测试 &#10;
+      &lt;i class=&quot;layui-icon layui-icon-down layui-font-12&quot;&gt;&lt;/i&gt;&#10;
+    &lt;/button&gt;&#10;
+    &lt;button class=&quot;layui-btn layui-btn-sm layui-btn-primary&quot; lay-event=&quot;multi-row&quot;&gt;&#10;
+      多行&#10;
+    &lt;/button&gt;&#10;
+    &lt;button class=&quot;layui-btn layui-btn-sm layui-btn-primary&quot; lay-event=&quot;default-row&quot;&gt;
+      单行&#10;
+    &lt;/button&gt;&#10;
+    &lt;button class=&quot;layui-btn layui-btn-sm&quot; id=&quot;moreTest&quot;&gt;&#10;
+      更多测试 &#10;
+      &lt;i class=&quot;layui-icon layui-icon-down layui-font-12&quot;&gt;&lt;/i&gt;&#10;
+    &lt;/button&gt;&#10;
+  &lt;/div&gt;&#10;
+&lt;/script&gt;&#10;
+
+&lt;script type=&quot;text/html&quot; id=&quot;cityTpl&quot;&gt;&#10;
+  &lt;select id=&quot;demoCity1&quot; class=&quot;layui-border&quot; lay-ignore&gt;&#10;
+    &lt;option value=&quot;浙江杭州&quot;&gt;浙江杭州&lt;/option&gt;&#10;
+    &lt;option value=&quot;江西南昌&quot;&gt;江西南昌&lt;/option&gt;&#10;
+    &lt;option value=&quot;湖北武汉&quot;&gt;湖北武汉&lt;/option&gt;&#10;
+  &lt;/select&gt;&#10;
+&lt;/script&gt;&#10;
+
+&lt;script type=&quot;text/html&quot; id=&quot;barDemo&quot;&gt;&#10;
+  &lt;a class=&quot;layui-btn layui-btn-xs&quot; lay-event=&quot;edit&quot;&gt;编辑&lt;/a&gt;&#10;
+  &lt;a class=&quot;layui-btn layui-btn-danger layui-btn-xs&quot; lay-event=&quot;del&quot;&gt;删除&lt;/a&gt;&#10;
+&lt;/script&gt;     &#10;
+
+&lt;script&gt;&#10;
+layui.use([&#x27;table&#x27;, &#x27;dropdown&#x27;], function(){&#10;
+  var table = layui.table;&#10;
+  var dropdown = layui.dropdown;&#10;
+  layer.msg(&#x27;本示例演示的数据为静态模拟数据，&lt;br&gt;实际使用时换成您的真实接口即可。&#x27;, {&#10;
+    closeBtn: 1,&#10;
+    icon: 6,&#10;
+    time: 21*1000,&#10;
+    offset: &#x27;21px&#x27;&#10;
+  });&#10;
+
+  // 创建渲染实例&#10;
+  table.render({&#10;
+    elem: &#x27;#test&#x27; &#10;
+    ,url:&#x27;/static/json/table/demo1.json&#x27; // 此处为静态模拟数据，实际使用时需换成真实接口&#10;
+    ,toolbar: &#x27;#toolbarDemo&#x27;&#10;
+    ,defaultToolbar: [&#x27;filter&#x27;, &#x27;exports&#x27;, &#x27;print&#x27;, {&#10;
+      title: &#x27;帮助&#x27;&#10;
+      ,layEvent: &#x27;LAYTABLE_TIPS&#x27;&#10;
+      ,icon: &#x27;layui-icon-tips&#x27;&#10;
+    }]&#10;
+    ,height: &#x27;full-200&#x27; // 最大高度减去其他容器已占有的高度差&#10;
+    ,cellMinWidth: 80&#10;
+    ,totalRow: true // 开启合计行&#10;
+    ,page: true&#10;
+    ,cols: [[&#10;
+      {type: &#x27;checkbox&#x27;, fixed: &#x27;left&#x27;}&#10;
+      ,{field:&#x27;id&#x27;, fixed: &#x27;left&#x27;, width:80, title: &#x27;ID&#x27;, sort: true, totalRowText: &#x27;合计：&#x27;}&#10;
+      ,{field:&#x27;username&#x27;, width:80, title: &#x27;用户&#x27;}&#10;
+      ,{field:&#x27;email&#x27;, title:&#x27;邮箱 &lt;i class=&quot;layui-icon layui-icon-email&quot;&gt;&lt;/i&gt;&#x27;, hide: 0, width:150, edit: &#x27;text&#x27;}&#10;
+      ,{field:&#x27;sex&#x27;, width:80, title: &#x27;性别&#x27;, sort: true}&#10;
+      ,{field:&#x27;city&#x27;, width:115, title: &#x27;城市&#x27;, minWidth:115, templet: &#x27;#cityTpl&#x27;, exportTemplet: function(d, obj){&#10;
+        //console.log(obj)&#10;
+        // 处理该字段的导出数据&#10;
+        var td = obj.td(this.field); //获取当前 td&#10;
+        return td.find(&#x27;select&#x27;).val();&#10;
+      }}&#10;
+      ,{field:&#x27;sign&#x27;, title: &#x27;签名&#x27;, edit: &#x27;textarea&#x27;, minWidth: 260, style: &#x27;-moz-box-align: start;&#x27;}&#10;
+      ,{field:&#x27;experience&#x27;, width: 100, title: &#x27;积分&#x27;, sort: true, totalRow: &#x27;{{= d.TOTAL_NUMS }} 😊&#x27;} &#10;
+      ,{field:&#x27;checkin&#x27;, title:&#x27;打卡&#x27;, width: 100, sort: true, totalRow: &#x27;{{= parseInt(d.TOTAL_NUMS) }} 次&#x27;}&#10;
+      ,{field:&#x27;ip&#x27;, title:&#x27;IP&#x27;, width: 120}&#10;
+      ,{field:&#x27;joinTime&#x27;, title:&#x27;加入时间&#x27;, width: 120}&#10;
+      ,{fixed: &#x27;right&#x27;, title:&#x27;操作&#x27;, width: 125, minWidth: 125, toolbar: &#x27;#barDemo&#x27;}&#10;
+    ]]&#10;
+    ,done: function(){&#10;
+      var id = this.id;&#10;
+
+      // 重载测试&#10;
+      dropdown.render({&#10;
+        elem: &#x27;#reloadTest&#x27; //可绑定在任意元素中，此处以上述按钮为例&#10;
+        ,data: [{&#10;
+          id: &#x27;reload&#x27;,&#10;
+          title: &#x27;重载&#x27;&#10;
+        },{&#10;
+          id: &#x27;reload-deep&#x27;,&#10;
+          title: &#x27;重载 - 参数叠加&#x27;&#10;
+        },{&#10;
+          id: &#x27;reloadData&#x27;,&#10;
+          title: &#x27;仅重载数据&#x27;&#10;
+        },{&#10;
+          id: &#x27;reloadData-deep&#x27;,&#10;
+          title: &#x27;仅重载数据 - 参数叠加&#x27;&#10;
+        }]&#10;
+        // 菜单被点击的事件&#10;
+        ,click: function(obj){&#10;
+          switch(obj.id){&#10;
+            case &#x27;reload&#x27;:&#10;
+              // 重载 - 默认（参数重置）&#10;
+              table.reload(&#x27;test&#x27;, {&#10;
+                where: {&#10;
+                  abc: &#x27;123456&#x27;&#10;
+                  //,test: &#x27;新的 test2&#x27;&#10;
+                  //,token: &#x27;新的 token2&#x27;&#10;
+                }&#10;
+                /*&#10;
+                ,cols: [[ // 重置表头&#10;
+                  {type: &#x27;checkbox&#x27;, fixed: &#x27;left&#x27;}&#10;
+                  ,{field:&#x27;id&#x27;, title:&#x27;ID&#x27;, width:80, fixed: &#x27;left&#x27;, unresize: true, sort: true, totalRowText: &#x27;合计：&#x27;}&#10;
+                  ,{field:&#x27;sex&#x27;, title:&#x27;性别&#x27;, width:80, edit: &#x27;text&#x27;, sort: true}&#10;
+                  ,{field:&#x27;experience&#x27;, title:&#x27;积分&#x27;, width:80, sort: true, totalRow: true, templet: &#x27;&lt;div&gt;{{ d.experience }} 分&lt;/div&gt;&#x27;}&#10;
+                  ,{field:&#x27;logins&#x27;, title:&#x27;登入次数&#x27;, width:100, sort: true, totalRow: true}&#10;
+                  ,{field:&#x27;joinTime&#x27;, title:&#x27;加入时间&#x27;, width:120}&#10;
+                ]]&#10;
+                */&#10;
+              });&#10;
+            break;&#10;
+            case &#x27;reload-deep&#x27;:&#10;
+              // 重载 - 深度（参数叠加）&#10;
+              table.reload(&#x27;test&#x27;, {&#10;
+                where: {&#10;
+                  abc: 123&#10;
+                  ,test: &#x27;新的 test1&#x27;&#10;
+                }&#10;
+                //,defaultToolbar: [&#x27;print&#x27;] // 重载头部工具栏右侧图标&#10;
+                //,cols: ins1.config.cols&#10;
+              }, true);&#10;
+            break;&#10;
+            case &#x27;reloadData&#x27;:&#10;
+              // 数据重载 - 参数重置&#10;
+              table.reloadData(&#x27;test&#x27;, {&#10;
+                where: {&#10;
+                  abc: &#x27;123456&#x27;&#10;
+                  //,test: &#x27;新的 test2&#x27;&#10;
+                  //,token: &#x27;新的 token2&#x27;&#10;
+                }&#10;
+                ,scrollPos: &#x27;fixed&#x27;  // 保持滚动条位置不变 - v2.7.3 新增&#10;
+                ,height: 2000 // 测试无效参数（即与数据无关的参数设置无效，此处以 height 设置无效为例）&#10;
+                //,url: &#x27;404&#x27;&#10;
+                //,page: {curr: 1, limit: 30} // 重新指向分页&#10;
+              });&#10;
+            break;&#10;
+            case &#x27;reloadData-deep&#x27;:&#10;
+              // 数据重载 - 参数叠加&#10;
+              table.reloadData(&#x27;test&#x27;, {&#10;
+                where: {&#10;
+                  abc: 123&#10;
+                  ,test: &#x27;新的 test1&#x27;&#10;
+                }&#10;
+              }, true);&#10;
+            break;&#10;
+          }&#10;
+          layer.msg(&#x27;可观察 Network 请求参数的变化&#x27;);&#10;
+        }&#10;
+      });&#10;
+
+      // 更多测试&#10;
+      dropdown.render({&#10;
+        elem: &#x27;#moreTest&#x27; //可绑定在任意元素中，此处以上述按钮为例&#10;
+        ,data: [{&#10;
+          id: &#x27;add&#x27;,&#10;
+          title: &#x27;添加&#x27;&#10;
+        },{&#10;
+          id: &#x27;update&#x27;,&#10;
+          title: &#x27;编辑&#x27;&#10;
+        },{&#10;
+          id: &#x27;delete&#x27;,&#10;
+          title: &#x27;删除&#x27;&#10;
+        }]&#10;
+        //菜单被点击的事件&#10;
+        ,click: function(obj){&#10;
+          var checkStatus = table.checkStatus(id)&#10;
+          var data = checkStatus.data; // 获取选中的数据&#10;
+          switch(obj.id){&#10;
+            case &#x27;add&#x27;:&#10;
+              layer.open({&#10;
+                title: &#x27;添加&#x27;,&#10;
+                type: 1,&#10;
+                area: [&#x27;80%&#x27;,&#x27;80%&#x27;],&#10;
+                content: &#x27;&lt;div style=&quot;padding: 16px;&quot;&gt;自定义表单元素&lt;/div&gt;&#x27;&#10;
+              });&#10;
+            break;&#10;
+            case &#x27;update&#x27;:&#10;
+              if(data.length !== 1) return layer.msg(&#x27;请选择一行&#x27;);&#10;
+              layer.open({&#10;
+                title: &#x27;编辑&#x27;,&#10;
+                type: 1,&#10;
+                area: [&#x27;80%&#x27;,&#x27;80%&#x27;],&#10;
+                content: &#x27;&lt;div style=&quot;padding: 16px;&quot;&gt;自定义表单元素&lt;/div&gt;&#x27;&#10;
+              });&#10;
+            break;&#10;
+            case &#x27;delete&#x27;:&#10;
+              if(data.length === 0){&#10;
+                return layer.msg(&#x27;请选择一行&#x27;);&#10;
+              }&#10;
+              layer.msg(&#x27;delete event&#x27;);&#10;
+            break;&#10;
+          }&#10;
+        }&#10;
+      });&#10;
+    }&#10;
+    ,error: function(res, msg){&#10;
+      console.log(res, msg)&#10;
+    }&#10;
+  });&#10;
+
+  // 工具栏事件&#10;
+  table.on(&#x27;toolbar(test)&#x27;, function(obj){&#10;
+    var id = obj.config.id;&#10;
+    var checkStatus = table.checkStatus(id);&#10;
+    var othis = lay(this);&#10;
+    switch(obj.event){&#10;
+      case &#x27;getCheckData&#x27;:&#10;
+        var data = checkStatus.data;&#10;
+        layer.alert(layui.util.escape(JSON.stringify(data)));&#10;
+      break;&#10;
+      case &#x27;getData&#x27;:&#10;
+        var getData = table.getData(id);&#10;
+        console.log(getData);&#10;
+        layer.alert(layui.util.escape(JSON.stringify(getData)));&#10;
+      break;&#10;
+      case &#x27;isAll&#x27;:&#10;
+        layer.msg(checkStatus.isAll ? &#x27;全选&#x27;: &#x27;未全选&#x27;)&#10;
+      break;&#10;
+      case &#x27;multi-row&#x27;:&#10;
+        table.reload(&#x27;test&#x27;, {&#10;
+          // 设置行样式，此处以设置多行高度为例。若为单行，则没必要设置改参数 - 注：v2.7.0 新增&#10;
+          lineStyle: &#x27;height: 95px;&#x27; &#10;
+        });&#10;
+        layer.msg(&#x27;即通过设置 lineStyle 参数可开启多行&#x27;);&#10;
+      break;&#10;
+      case &#x27;default-row&#x27;:&#10;
+        table.reload(&#x27;test&#x27;, {&#10;
+          lineStyle: null // 恢复单行&#10;
+        });&#10;
+        layer.msg(&#x27;已设为单行&#x27;);&#10;
+      break;&#10;
+      case &#x27;LAYTABLE_TIPS&#x27;:&#10;
+        layer.alert(&#x27;Table for layui-v&#x27;+ layui.v);&#10;
+      break;&#10;
+    };&#10;
+  });&#10;
+
+  //触发单元格工具事件&#10;
+  table.on(&#x27;tool(test)&#x27;, function(obj){ // 双击 toolDouble&#10;
+    var data = obj.data;&#10;
+    //console.log(obj)&#10;
+    if(obj.event === &#x27;del&#x27;){&#10;
+      layer.confirm(&#x27;真的删除行么&#x27;, function(index){&#10;
+        obj.del();&#10;
+        layer.close(index);&#10;
+      });&#10;
+    } else if(obj.event === &#x27;edit&#x27;){&#10;
+      layer.open({&#10;
+        title: &#x27;编辑&#x27;,&#10;
+        type: 1,&#10;
+        area: [&#x27;80%&#x27;,&#x27;80%&#x27;],&#10;
+        content: &#x27;&lt;div style=&quot;padding: 16px;&quot;&gt;自定义表单元素&lt;/div&gt;&#x27;&#10;
+      });&#10;
+    }&#10;
+  });&#10;
+
+  //触发表格复选框选择&#10;
+  table.on(&#x27;checkbox(test)&#x27;, function(obj){&#10;
+    console.log(obj)&#10;
+  });&#10;
+
+  //触发表格单选框选择&#10;
+  table.on(&#x27;radio(test)&#x27;, function(obj){&#10;
+    console.log(obj)&#10;
+  });&#10;
+
+  // 行单击事件&#10;
+  table.on(&#x27;row(test)&#x27;, function(obj){&#10;
+    //console.log(obj);&#10;
+    //layer.closeAll(&#x27;tips&#x27;);&#10;
+  });&#10;
+  // 行双击事件&#10;
+  table.on(&#x27;rowDouble(test)&#x27;, function(obj){&#10;
+    console.log(obj);&#10;
+  });&#10;
+
+  // 单元格编辑事件&#10;
+  table.on(&#x27;edit(test)&#x27;, function(obj){&#10;
+    var field = obj.field //得到字段&#10;
+    ,value = obj.value //得到修改后的值&#10;
+    ,data = obj.data; //得到所在行所有键值&#10;
+
+    var update = {};&#10;
+    update[field] = value;&#10;
+    obj.update(update);&#10;
+  });&#10;
+});&#10;
+&lt;/script&gt;$END$"
+              description="Layui 完整数据表格" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-table:data"
+              value="&lt;table class=&quot;layui-hide&quot; id=&quot;demo&quot;&gt;&lt;/table&gt;&#10;
+&lt;script&gt;&#10;
+layui.use(&#x27;table&#x27;, function(){&#10;
+  var table = layui.table;&#10;
+
+  //展示已知数据&#10;
+  table.render({&#10;
+    elem: &#x27;#demo&#x27;&#10;
+    ,cols: [[ //标题栏&#10;
+      {field: &#x27;id&#x27;, title: &#x27;ID&#x27;, width: 80, sort: true}&#10;
+      ,{field: &#x27;username&#x27;, title: &#x27;用户名&#x27;, width: 120}&#10;
+      ,{field: &#x27;email&#x27;, title: &#x27;邮箱&#x27;, minWidth: 150}&#10;
+      ,{field: &#x27;sign&#x27;, title: &#x27;签名&#x27;, minWidth: 160}&#10;
+      ,{field: &#x27;sex&#x27;, title: &#x27;性别&#x27;, width: 80}&#10;
+      ,{field: &#x27;city&#x27;, title: &#x27;城市&#x27;, width: 100}&#10;
+      ,{field: &#x27;experience&#x27;, title: &#x27;积分&#x27;, width: 80, sort: true}&#10;
+    ]]&#10;
+    ,data: [{&#10;
+      &quot;id&quot;: &quot;10001&quot;&#10;
+      ,&quot;username&quot;: &quot;杜甫&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;116&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;108&quot;&#10;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+    }, {&#10;
+      &quot;id&quot;: &quot;10002&quot;&#10;
+      ,&quot;username&quot;: &quot;李白&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;12&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;106&quot;&#10;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+      ,&quot;LAY_CHECKED&quot;: true&#10;
+    }, {&#10;
+      &quot;id&quot;: &quot;10003&quot;&#10;
+      ,&quot;username&quot;: &quot;王勃&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;65&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;106&quot;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+    }, {&#10;
+      &quot;id&quot;: &quot;10004&quot;&#10;
+      ,&quot;username&quot;: &quot;贤心&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;666&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;106&quot;&#10;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+    }, {&#10;
+      &quot;id&quot;: &quot;10005&quot;&#10;
+      ,&quot;username&quot;: &quot;贤心&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;86&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;106&quot;&#10;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+    }, {
+      &quot;id&quot;: &quot;10006&quot;&#10;
+      ,&quot;username&quot;: &quot;贤心&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;12&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;106&quot;&#10;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+    }, {&#10;
+      &quot;id&quot;: &quot;10007&quot;&#10;
+      ,&quot;username&quot;: &quot;贤心&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;16&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;106&quot;&#10;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+    }, {&#10;
+      &quot;id&quot;: &quot;10008&quot;&#10;
+      ,&quot;username&quot;: &quot;贤心&quot;&#10;
+      ,&quot;email&quot;: &quot;test@email.com&quot;&#10;
+      ,&quot;sex&quot;: &quot;男&quot;&#10;
+      ,&quot;city&quot;: &quot;浙江杭州&quot;&#10;
+      ,&quot;sign&quot;: &quot;人生恰似一场修行&quot;&#10;
+      ,&quot;experience&quot;: &quot;106&quot;&#10;
+      ,&quot;ip&quot;: &quot;192.168.0.8&quot;&#10;
+      ,&quot;logins&quot;: &quot;106&quot;&#10;
+      ,&quot;joinTime&quot;: &quot;2016-10-14&quot;&#10;
+    }]&#10;
+    //,skin: &#x27;line&#x27; //表格风格 &#10;
+    ,even: true&#10;
+    //,page: true //是否显示分页&#10;
+    //,limits: [5, 7, 10]&#10;
+    //,limit: 5 //每页默认显示的数量&#10;
+  });&#10;
+});&#10;
+&lt;/script&gt;$END$"
+              description="Layui 展示已知数据表格" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-badge"
               value="&lt;span class=&quot;layui-badge&quot;&gt;6&lt;/span&gt;&#10;&#9;$END$"
-              description="lay 徽章" toReformat="false" toShortenFQNames="true">
+              description="Layui 徽章" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-badge:dot"
               value="&lt;span class=&quot;layui-badge-dot layui-bg-orange&quot;&gt;&lt;/span&gt;&#10;&#9;$END$"
-              description="lay 徽章小點" toReformat="false" toShortenFQNames="true">
+              description="Layui 徽章小點" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -1272,24 +1871,24 @@ layui.use(&#x27;element&#x27;, function(){&#10;&#9;
     内容区域&#10;
   &lt;/div&gt;&#10;
 &lt;/fieldset&gt;&#10;&#9;$END$"
-              description="lay 字段集区块" toReformat="false" toShortenFQNames="true">
+              description="Layui 字段集区块" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -1307,116 +1906,93 @@ layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;
   });&#10;
 });&#10;
 &lt;/script&gt;&#10;&#9;$END$"
-              description="lay 时间" toReformat="false" toShortenFQNames="true">
+              description="Layui 时间" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-date:y"
               value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;        //执行一个laydate实例&#10;&#9;    laydate.render({&#10;&#9;      elem: &#x27;#test1&#x27; //指定元素&#10;&#9;    ,type: &#x27;year&#x27;&#10;&#9;    });&#10;&#9;  });$END$"
-              description="laydate 年选择器" toReformat="false" toShortenFQNames="true">
+              description="Layui Date 年选择器" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-date:ym"
               value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;    laydate.render({ &#10;&#9;        elem: &#x27;#test&#x27;&#10;&#9;        ,type: &#x27;month&#x27;&#10;&#9;    });&#10;&#9;});$END$"
-              description="laydate 年月选择器" toReformat="false" toShortenFQNames="true">
+              description="Layui Date 年月选择器" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="lay-date:time"
               value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;    laydate.render({ &#10;&#9;        elem: &#x27;#test&#x27;&#10;&#9;        ,type: &#x27;time&#x27;&#10;&#9;    });&#10;&#9;});$END$"
-              description="laydate 时间选择器" toReformat="false" toShortenFQNames="true">
+              description="Layui Date 时间选择器" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
-            <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-date:time"
-              value="layui.use(&#x27;laydate&#x27;, function(){&#10;&#9;    var laydate = layui.laydate;&#10;&#9;    laydate.render({ &#10;&#9;        elem: &#x27;#test&#x27;&#10;&#9;        ,type: &#x27;datetime&#x27;&#10;&#9;    });&#10;&#9;});$END$"
-              description="laydate 日期时间选择器" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
-            <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
         </context>
     </template>
@@ -1429,67 +2005,30 @@ layui.use(&#x27;layer&#x27;, function(){&#10;&#9;
   layer.msg(&#x27;hello&#x27;);&#10;
 });&#10;&#9;
 &lt;/script&gt;&#10;&#9;$END$"
-              description="lay 弹框" toReformat="false" toShortenFQNames="true">
+              description="Layui layer 弹框" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
-            <option name="XSL_TEXT" value="false"/>
-            <option name="XML" value="false"/>
-            <option name="JSP" value="false"/>
-            <option name="CSS_PROPERTY_VALUE" value="false"/>
-            <option name="CSS_DECLARATION_BLOCK" value="false"/>
-            <option name="CSS_RULESET_LIST" value="false"/>
-            <option name="CSS" value="false"/>
-            <option name="JAVA_SCRIPT" value="false"/>
-            <option name="TypeScript" value="false"/>
-            <option name="SQL" value="false"/>
-            <option name="CUCUMBER_FEATURE_FILE" value="false"/>
-            <option name="CoffeeScript" value="false"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="HAML" value="false"/>
+            <option name="HAML" value="true"/>
             <option name="OTHER" value="true"/>
-        </context>
-    </template>
-    <template name="lay-layer:base"
-              value="&lt;script&gt;&#10;&#9;
-layer.msg(&#x27;hello&#x27;);&#10;
-layui.use(&#x27;layer&#x27;, function(){&#10;&#9;
-  var layer = layui.layer;&#10;
-
-  layer.msg(&#x27;hello&#x27;);&#10;
-});&#10;&#9;
-&lt;/script&gt;&#10;&#9;$END$"
-              description="lay 弹框" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="JAVA_SCRIPT" value="true"/>
-            <option name="PHP" value="true"/>
-        </context>
-    </template>
-    <template name="lay-layer:base"
-              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9;  &#10;&#9;  layer.msg(&#x27;hello&#x27;,{&#x27;icon&#x27;:1});&#10;&#9;});$END$"
-              description="layer 图标弹框" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="JAVA_SCRIPT" value="true"/>
-            <option name="PHP" value="true"/>
         </context>
     </template>
     <template name="lay-layer:confirm"
               value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9; layer.confirm(&#x27;纳尼？&#x27;, {&#10;&#9; btn: [&#x27;按钮一&#x27;, &#x27;按钮二&#x27;, &#x27;按钮三&#x27;] //可以无限个按钮 &#10;&#9;    ,btn3: function(index, layero){&#10;&#9;   //按钮【按钮三】的回调&#10;&#9;    }&#10;&#9;},&#10;&#9; function(index, layero){    //按钮【按钮一】的回调&#10;&#9;    },&#10;&#9; function(index){   //按钮【按钮二】的回调&#10;&#9;    })&#10;&#9;});$END$"
               description="layer 确认框" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="JAVA_SCRIPT" value="true"/>
-            <option name="PHP" value="true"/>
-        </context>
-    </template>
-    <template name="lay-layer:confirm"
-              value="layui.use(&#x27;layer&#x27;, function(){&#10;&#9;  var layer = layui.layer;&#10;&#9; layer.confirm(&#x27;纳尼？&#x27;, {&#10;&#9; btn: [&#x27;按钮一&#x27;, &#x27;按钮二&#x27;, &#x27;按钮三&#x27;] //可以无限个按钮 &#10;&#9;    ,btn3: function(index, layero){&#10;&#9;   //按钮【按钮三】的回调&#10;&#9;    }&#10;&#9;},&#10;&#9; function(index, layero){    //按钮【按钮一】的回调&#10;&#9;    },&#10;&#9; function(index){   //按钮【按钮二】的回调&#10;&#9;    })&#10;&#9;});$END$"
-              description="layer 确认弹框" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -1544,15 +2083,6 @@ layui.use(&#x27;layer&#x27;, function(){&#10;&#9;
             <option name="JAVA_SCRIPT" value="true"/>
         </context>
     </template>
-    <template name="lay-layer-params:scrollbar"
-              value="scrollbar: false,$END$"
-              description="layer 屏蔽层参数" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="JAVA_SCRIPT" value="true"/>
-        </context>
-    </template>
     <template name="lay-layer-params:area"
               value="area:[&#x27;500px&#x27;, &#x27;300px&#x27;],$END$"
               description="layer 大小" toReformat="false" toShortenFQNames="true">
@@ -1571,13 +2101,299 @@ layui.use(&#x27;layer&#x27;, function(){&#10;&#9;
             <option name="JAVA_SCRIPT" value="true"/>
         </context>
     </template>
-    <template name="lay-data-table"
+    <template name="lay-table:js"
               value="layui.use(&#x27;table&#x27;, function(){&#10;&#9;            var table = layui.table;&#10;&#9;            //第一个实例&#10;&#9;            table.render({&#10;&#9;              elem: &#x27;#demo&#x27;&#10;&#9;              ,height: 312&#10;&#9;              ,url: &#x27;/demo/table/user/&#x27; //数据接口&#10;&#9;              ,page: true //开启分页&#10;&#9;              ,cols: [[ //表头&#10;&#9;                {field: &#x27;id&#x27;, title: &#x27;ID&#x27;, width:80, sort: true, fixed: &#x27;left&#x27;}&#10;&#9;                ,{field: &#x27;username&#x27;, title: &#x27;用户名&#x27;, width:80}&#10;&#9;                ,{field: &#x27;sex&#x27;, title: &#x27;性别&#x27;, width:80, sort: true}&#10;&#9;                ,{field: &#x27;city&#x27;, title: &#x27;城市&#x27;, width:80} &#10;&#9;                ,{field: &#x27;sign&#x27;, title: &#x27;签名&#x27;, width: 177}&#10;&#9;                ,{field: &#x27;experience&#x27;, title: &#x27;积分&#x27;, width: 80, sort: true}&#10;&#9;                ,{field: &#x27;score&#x27;, title: &#x27;评分&#x27;, width: 80, sort: true}&#10;&#9;                ,{field: &#x27;classify&#x27;, title: &#x27;职业&#x27;, width: 80}&#10;&#9;                ,{field: &#x27;wealth&#x27;, title: &#x27;财富&#x27;, width: 135, sort: true}&#10;&#9;              ]]&#10;&#9;            });&#10;&#9;          });$END$"
               description="layui js 渲染table" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="lay-page:default"
+              value="&lt;div id=&quot;test1&quot;&gt;&lt;/div&gt;&#10;
+&lt;script&gt;&#10;
+layui.use(&#x27;laypage&#x27;, function(){&#10;
+  var laypage = layui.laypage;&#10;
+  &#10;
+  //执行一个laypage实例&#10;
+  laypage.render({&#10;
+    elem: &#x27;test1&#x27; //注意，这里的 test1 是 ID，不用加 # 号&#10;
+    ,count: 50 //数据总数，从服务端得到&#10;
+  });&#10;
+});&#10;
+&lt;/script&gt;$END$"
+              description="Layui 分页基本" toShortenFQNames="true" toReformat="false">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-page:color"
+              value="&lt;div id=&quot;demo2&quot;&gt;&lt;/div&gt;&#10;
+&lt;script&gt;&#10;
+layui.use([&#x27;laypage&#x27;, &#x27;layer&#x27;], function(){&#10;
+  var laypage = layui.laypage&#10;
+  ,layer = layui.layer;&#10;
+  //自定义样式&#10;
+  laypage.render({&#10;
+    elem: &#x27;demo2&#x27;&#10;
+    ,count: 100&#10;
+    ,theme: &#x27;#1E9FFF&#x27;&#10;
+  });&#10;
+});&#10;
+&lt;/script&gt;$END$"
+              description="Layui 分页背景色" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-page:all"
+              value="&lt;div id=&quot;demo7&quot;&gt;&lt;/div&gt;&#10;
+&lt;script&gt;&#10;
+layui.use([&#x27;laypage&#x27;, &#x27;layer&#x27;], function(){&#10;
+  var laypage = layui.laypage&#10;
+  ,layer = layui.layer;&#10;
+  //完整功能&#10;
+ laypage.render({&#10;
+    elem: &#x27;demo7&#x27;&#10;
+    ,count: 100&#10;
+    ,layout: [&#x27;count&#x27;, &#x27;prev&#x27;, &#x27;page&#x27;, &#x27;next&#x27;, &#x27;limit&#x27;, &#x27;refresh&#x27;, &#x27;skip&#x27;]&#10;
+    ,jump: function(obj){&#10;
+      console.log(obj)&#10;
+    }&#10;
+  });&#10;
+});&#10;
+&lt;/script&gt;$END$"
+              description="Layui 分页完整功能"
+              toShortenFQNames="true" toReformat="false">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-down"
+              value="&lt;div class=&quot;layui-btn-container&quot;&gt;&#10;
+  &lt;button class=&quot;layui-btn demo1&quot;&gt;&#10;
+    下拉菜单&#10;
+    &lt;i class=&quot;layui-icon layui-icon-down layui-font-12&quot;&gt;&lt;/i&gt;&#10;
+  &lt;/button&gt;&#10;
+  &lt;button class=&quot;layui-btn layui-btn-primary demo1&quot;&gt;&#10;
+    下拉菜单&#10;
+    &lt;i class=&quot;layui-icon layui-icon-down layui-font-12&quot;&gt;&lt;/i&gt;&#10;
+  &lt;/button&gt;&#10;
+&lt;/div&gt;&#10;
+&lt;script&gt;&#10;
+layui.use([&#x27;dropdown&#x27;, &#x27;util&#x27;, &#x27;layer&#x27;, &#x27;table&#x27;], function(){
+  var dropdown = layui.dropdown;&#10;
+//初演示&#10;
+ dropdown.render({&#10;
+    elem: &#x27;.demo1&#x27;&#10;
+    ,data: [{&#10;
+      title: &#x27;menu item11&#x27;&#10;
+      ,id: 100&#10;
+    },{&#10;
+      title: &#x27;menu item22&#x27;&#10;
+      ,id: 101&#10;
+    },{&#10;
+      title: &#x27;menu item33&#x27;&#10;
+      ,id: 102&#10;
+    }]&#10;
+    ,click: function(obj){&#10;
+      layer.tips(&#x27;点击了：&#x27;+ obj.title, this.elem, {tips: [1, &#x27;#5FB878&#x27;]})&#10;
+    }&#10;
+  });&#10;
+})&#10;
+&lt;/script&gt;$END$"
+              description="Layui 下拉菜单" toShortenFQNames="true" toReformat="false">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-down:input"
+              value="&lt;div class=&quot;layui-inline&quot; style=&quot;width: 235px;&quot;&gt;&#10;
+  &lt;input name=&quot;&quot; placeholder=&quot;在输入框提供一些常用的选项&quot; class=&quot;layui-input&quot; id=&quot;demo2&quot;&gt;&#10;
+&lt;/div&gt;&#10;
+&lt;script&gt;&#10;
+layui.use([&#x27;dropdown&#x27;, &#x27;util&#x27;, &#x27;layer&#x27;, &#x27;table&#x27;], function(){&#10;
+  var dropdown = layui.dropdown;&#10;
+//初演示 - 绑定输入框&#10;
+  dropdown.render({&#10;
+    elem: &#x27;#demo2&#x27;&#10;
+    ,data: [{&#10;
+      title: &#x27;menu item 1&#x27;&#10;
+      ,id: 101&#10;
+    },{&#10;
+      title: &#x27;menu item 2&#x27;&#10;
+      ,id: 102&#10;
+    },{&#10;
+      title: &#x27;menu item 3&#x27;&#10;
+      ,id: 103&#10;
+    },{&#10;
+      title: &#x27;menu item 4&#x27;&#10;
+      ,id: 104&#10;
+    },{&#10;
+      title: &#x27;menu item 5&#x27;&#10;
+      ,id: 105&#10;
+    },{&#10;
+      title: &#x27;menu item 6&#x27;&#10;
+      ,id: 106&#10;
+    }]&#10;
+    ,click: function(obj){&#10;
+      this.elem.val(obj.title);&#10;
+    }&#10;
+    ,style: &#x27;width: 235px;&#x27;&#10;
+  });&#10;
+})&#10;
+&lt;/script&gt;$END$"
+              description="Layui 下拉常用选项" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-slider"
+              value="&lt;div id=&quot;slideTest1&quot; class=&quot;demo-slider&quot;&gt;&lt;/div&gt;&#10;
+&lt;script&gt;&#10;
+layui.use(&#x27;slider&#x27;, function(){&#10;
+  var $ = layui.$&#10;
+  ,slider = layui.slider;&#10;
+  //默认滑块&#10;
+  slider.render({&#10;
+    elem: &#x27;#slideTest1&#x27;&#10;
+  });&#10;
+});&#10;
+&lt;/script&gt;$END$"
+              description="Layui 滑块" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+    </template>
+    <template name="lay-rate"
+              value="&lt;div id=&quot;test2&quot;&gt;&lt;/div&gt;&#10;
+&lt;script&gt;&#10;
+layui.use([&#x27;rate&#x27;], function(){&#10;
+  var rate = layui.rate;&#10;
+  //显示文字&#10;
+  rate.render({&#10;
+    elem: &#x27;#test2&#x27;&#10;
+    ,value: 2 //初始值&#10;
+    ,text: true //开启文本&#10;
+  });&#10;
+});&#10;
+&lt;/script&gt;$END$"
+              description="Layui 评分" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="XSL_TEXT" value="true"/>
+            <option name="XML" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="CSS_PROPERTY_VALUE" value="true"/>
+            <option name="CSS_DECLARATION_BLOCK" value="true"/>
+            <option name="CSS_RULESET_LIST" value="true"/>
+            <option name="CSS" value="true"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="TypeScript" value="true"/>
+            <option name="SQL" value="true"/>
+            <option name="CUCUMBER_FEATURE_FILE" value="true"/>
+            <option name="CoffeeScript" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="HAML" value="true"/>
+            <option name="OTHER" value="true"/>
         </context>
     </template>
 </templateSet>
